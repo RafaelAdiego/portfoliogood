@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFCD00">
+    <title>Portfolio</title>
+    <meta name="description" content="Portfoliode Rafael Adiego.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <center>
+            <div class="title_video">
+                <!-- intro y video -->
+                <h1 class="texto_color texto_titulo">Hola, soy Rafa Adiego Gelabert,
+                </h1>
+                <h2 class="texto_color subtitulo">desarrollador front end . </h2>
+            </div>
+        </center>
+
+    </header>
+    <section>
+        <div class="contenedor_texto_presentacion">
+            <p class="texto_color texto_presentacion-ra ">
+                Hola, soy Ra, el perro de Rafa. Este es su portfolio, donde encontrarás algunos de los trabajos que ha
+                realizado. No oyes nada porque te estoy hablando telepáticamente. Es un chaval simpático
+                <!-- , majo pero no me liaria -->
+                , eficaz, y
+                podría decirte más cosas sobre él, pero estoy demasiado agusto ahora que me está acariciando. ¡Ostras,
+                que me ahogo! Bueno, entra a mirar sus proyectos y conócelo.
+            </p>
+        </div>
+
+
+    </section>
+    <section class="container_fondo">
+        <div class="container_video">
+            <video id="video">
+                <source src="./presentacion.mp4" type="video/mp4">
+                </source>
+            </video>
+        </div>
+
+        <script>
+
+            function play() {
+                var video = document.getElementById("video");
+                video.play();
+            }
+
+        </script>
+
+        <img class="control" src="./control.png" onclick="play()" />
+
+    </section>
+
+    <footer>
+        <div>
+            <a class="texto_color texto_footer click" href="./proyectos.html"> haz clic para saltar </a>
+        </div>
+    </footer>
+</body>
+
+</html>
